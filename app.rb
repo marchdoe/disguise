@@ -4,7 +4,7 @@ require 'mustache/sinatra'
 class App < Sinatra::Base
   register Mustache::Sinatra
   require 'views/layout'
-
+  set :public, "public"
   set :mustache, {
     :views     => 'views/',
     :templates => 'templates/'
