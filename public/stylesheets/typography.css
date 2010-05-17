@@ -1,12 +1,10 @@
 /* -------------------------------------------------------------- 
 
    typography.css
-   * Sets up some sensible default typography.
+   * Sets Up A Default Typography.
    
 -------------------------------------------------------------- */
 
-/* Default font settings. 
-   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
 html { font-size:100.01%; }
 body { 
   font-size: 75%;
@@ -15,57 +13,45 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
-
-/* Headings
--------------------------------------------------------------- */
+/* HEADINGS
+========================= */
 
 h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; }
 
-h1 { font-size: 24px; line-height: 1; margin-bottom: 12px; }
-h2 { font-size: 20px; line-height: 1; padding-bottom: 6px; margin-bottom: 12px; }
-h3 { font-size: 16px; line-height: 1; margin-bottom: 1em; }
-h4 { font-size: 14px; line-height: 1.25; margin-bottom: 1.25em; }
-h5 { font-size: 12px; font-weight: bold; margin-bottom: 1.5em; }
-h6 { font-size: 12px; font-weight: bold; }
-
-h1 img, h2 img, h3 img, 
-h4 img, h5 img, h6 img {
-  margin: 0;
-}
+h1             { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2             { font-size: 2em; margin-bottom: 0.75em; }
+h3             { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4             { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5             { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6             { font-size: 1em; font-weight: bold; }
 
 
-/* Text elements
--------------------------------------------------------------- */
+/* TEXT ELEMENTS
+========================= */
 
-p           { margin: 0 0 1.5em; }
-p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
-p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+p              { margin: 0 0 1.5em; }
 
-/*a:link, 
-a:visited 	{ color:#4083A9; text-decoration:none; }*/
-/*a:active 	{ outline: none; }*/
-/*a:focus		{ border: none; }*/
-a:hover     { color: #205F82; text-decoration: underline; }
-a           { color: #0A7BC1; text-decoration: none; outline: none; }
+a:focus,
+a:hover        { color: #000; }
+a              { color: #009; text-decoration: underline; }
 
+blockquote     { margin: 1.5em; color: #666; font-style: italic; }
+strong         { font-weight: bold; }
+em,dfn         { font-style: italic; }
+dfn            { font-weight: bold; }
+sup, sub       { line-height: 0; }
 
-blockquote  { margin: 1.5em; color: #666; font-style: italic; }
-strong      { font-weight: bold; }
-em,dfn      { font-style: italic; }
-dfn         { font-weight: bold; }
-sup, sub    { line-height: 0; }
+abbr,
+acronym        { border-bottom: 1px dotted #666; }
+address        { margin: 0 0 1.5em; font-style: italic; }
+del            { color:#666; }
 
-abbr, 
-acronym     { border-bottom: 1px dotted #666; }
-address     { margin: 0 0 1.5em; font-style: italic; }
-del         { color:#666; }
-
-pre 			{ text-align: center; white-space: normal;}
-/*pre,code,tt 	{ margin:0 15% 1.5em; }*/
+pre            { margin: 1.5em 0; white-space: pre; }
+pre,code,tt    { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
 
 
-/* Lists
--------------------------------------------------------------- */
+/* LISTS
+========================= */
 
 li ul,
 li ol       { margin: 0; }
@@ -79,8 +65,8 @@ dl dt       { font-weight: bold; }
 dd          { margin-left: 1.5em;}
 
 
-/* Tables
--------------------------------------------------------------- */
+/* TABLES
+========================= */
 
 table 									{ width: 100%; background: #fff; }
 table caption 							{ margin: 0; padding: 8px 10px; text-align: left; border: 1px solid #000; border-bottom: none; background: #fff; }
@@ -95,29 +81,11 @@ table tr.alt 							{ background-color: #e5ecf9; }
 table td a, 
 table td a:hover 						{ font-weight: bold; border: none; }
 
-/* Secondary Table Styles */
-table.second 							{ margin-bottom: 0; position: relative; border-bottom: none; background: #fff; font-size: 11px; } 
-table.second th, table.second  td 		{ margin: 0; padding: 4px 10px; }
-table.second th 						{ padding: 0 0 0 10px; font-weight: bold;  }
-table.second th.left					{ width: 350px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px;}
-table.second th.right					{ -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
-table.second tr 						{ background-color: #fff; }
-table.second tr.last td					{ border-bottom: none; }
-table.second tr.alt 					{ background-color: #F7F7F7; }
-table.second tr:hover					{ background-color: #ffc; }
-table.second tr.header:hover			{ background-color: transparent; }
-table.second th a						{ border: none; }
 
-/* QUEUE TABLES -- NEEDS TO BE CLEANED UP*/
-table.queues th,
-table.jobs th,
-table.workers th,
-table.queues td,
-table.jobs td,
-table.workers td	{ text-align: left; } 
+/* Misc classes 
 
+TODO FIGURE OUT WHAT IS REALLY NEEDED HERE
 
-/* Misc classes
 -------------------------------------------------------------- */
 .right				{ float: right; }
 .left				{ float: left; }
@@ -139,27 +107,4 @@ table.workers td	{ text-align: left; }
 .top				{ margin-top:0; padding-top:0; }
 .bottom				{ margin-bottom:0; padding-bottom:0; }
 
-
-
-/* Misc icons
--------------------------------------------------------------- */
-.default			{ line-height: 28px; padding-left: 30px; background: transparent url("../images/icons/default.gif") no-repeat -5px 0;}
-.doc				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/doc.gif") no-repeat 0 0;}
-.pdf				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/pdf.gif") no-repeat 0 0;}
-.xls				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/xls.gif") no-repeat 0 0;}
-.pic				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/pic.gif") no-repeat 0 0;}
-.ppt				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/ppt.gif") no-repeat 0 0;}
-
-.notice				{ line-height: 28px; padding-left: 35px; background: transparent url("../images/icons/notice.png") no-repeat 0 0;}
-
-.arrow				{ padding-left: 14px; background: transparent url("../images/icons/arrow.png") no-repeat left center;}
-.up					{ padding-right: 18px; background: transparent url("../images/icons/up.gif") no-repeat right center;}
-.down				{ padding-right: 18px; background: transparent url("../images/icons/down.gif") no-repeat right center;}	
-
-.web				{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/web.png") no-repeat 0 50%;}
-.internal-drive		{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/internal-drive.png") no-repeat 0 50%;}
-.external-drive		{ line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/external-drive.png") no-repeat 0 50%;}
-.cd	                { line-height: 28px; padding-left: 40px; background: transparent url("../images/icons/cd.png") no-repeat 0 50%;}	
-
-.custodian	        { line-height: 28px; background: transparent url("../images/icons/custodian.png") no-repeat 0 50%;}
 

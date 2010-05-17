@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      {{title}}
-    </title>
+    <title>{{title}}</title>
 
+	<link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/grid.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/forms.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/buttons.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/typography.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/modules.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/base.css" media="screen" rel="stylesheet" type="text/css" />
 
-	<!-- <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" /> -->
   </head>
   <body>
-    <div id="main">
+    <div class="container">
+	  {{> header}}
+      
       {{{yield}}}
+
+      {{> footer}}
     </div>
   </body>
 </html>

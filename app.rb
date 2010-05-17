@@ -19,8 +19,4 @@ class App < Sinatra::Base
     mustache :other
   end
 
-  get '/nolayout' do
-    content_type 'text/plain'
-    mustache :nolayout, :layout => false
-  end
 end
