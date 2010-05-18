@@ -2,7 +2,7 @@ class App
   module Views
     class Layout < Mustache
       def title 
-        @title || "Toupee - A simple flexible visual framework."
+        @title || "Disguise"
       end
     end
   end

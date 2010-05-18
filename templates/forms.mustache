@@ -1,38 +1,33 @@
 <section>
-	<h1>Form Styles</h1>
+<h1>Form Styles</h1>
+<article>
+	
+<h2>Basic Form Styles</h2>	
+<!-- VARIOUS FORM ELEMENTS -->
+{{> elements}}
+<figure class="brush: html">
+{{> elements}}
+</figure>
 
-	<article>
-		<h2>Basic Form Styles</h2>	
-		<!-- VARIOUS FORM ELEMENTS -->
-		{{> elements}}
-		<figure class="brush: html">	
-		{{> elements}}
-		</figure>
+<!-- EXAMPLE == LOGIN -->
+<h2>Login</h2>
+{{> login}}
+<figure class="brush: html">	
+{{> login}}
+</figure>
 
-		<!-- EXAMPLE LOGIN PAGE -->
-		<h2>Login</h2>
-		{{> login}}
-		<figure class="brush: html">	
-		{{> login}}
-		</figure>
+<!-- EXAMPLE == REGISTRATION -->
+<h2>Registration</h2>
+{{> registration}}
+<figure class="brush: html">	
+{{> registration}}
+</figure>
 
-		<!-- EXAMPLE REGISTRATION PAGE -->
-		<h2>Registration</h2>
-		{{> registration}}
-		<figure class="brush: html">	
-		{{> registration}}
-		</figure>
-		
-		<h2>Search</h2>
-		<form action="#">
-			<fieldset>
-				<ul>
-					<li>
-						<input type="text" value="Search..." size="55" name="q" class="searchfield">
-						<input type="submit" value="Search" name="commit" class="button medium">
-					</li>
-				</ul>
-			</fieldset>
-		</form>
-	</article>
+<!-- EXAMPLE == SEARCH MODULE -->
+{{> search-module}}
+<figure class="brush: html">
+{{> search-module}}
+</figure>
+
+</article>
 </section>

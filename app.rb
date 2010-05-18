@@ -28,6 +28,10 @@ class App < Sinatra::Base
     mustache :index
   end
   
+  get '/about' do
+    mustache :about
+  end
+  
   get '/reset' do
     mustache :reset
   end
@@ -54,6 +58,10 @@ class App < Sinatra::Base
   
   get '/base' do
     mustache :base
+  end
+  
+  get '/application' do
+    mustache :application
   end
 
 end
