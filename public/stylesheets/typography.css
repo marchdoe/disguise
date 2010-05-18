@@ -102,9 +102,5 @@ TODO FIGURE OUT WHAT IS REALLY NEEDED HERE
 .error				{ background-color: #fcc; border: 1px solid #f00; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px }
 .pending			{ background-color: #ffc; border: 1px solid yellow; padding: 2px 6px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .sort				{ background-color: #f1f1f1; border: 1px solid #e1e1e1;   padding: 2px 6px;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-.first				{ margin-left:0; padding-left:0; }
-.last				{ margin-right:0; padding-right:0; }
-.top				{ margin-top:0; padding-top:0; }
-.bottom				{ margin-bottom:0; padding-bottom:0; }
 
 

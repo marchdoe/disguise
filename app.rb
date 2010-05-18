@@ -14,9 +14,33 @@ class App < Sinatra::Base
     @title = "Toupee + Mustache = Disguise"
     mustache :index
   end
-
-  get '/other' do
-    mustache :other
+  
+  get '/reset' do
+    mustache :reset
+  end
+  
+  get '/grid' do
+    mustache :grid
+  end
+  
+  get '/typography' do
+    mustache :typography
+  end
+  
+  get '/forms' do
+    mustache :forms
+  end
+  
+  get '/buttons' do
+    mustache :buttons
+  end
+  
+  get '/modules' do
+    mustache :modules
+  end
+  
+  get '/base' do
+    mustache :base
   end
 
 end

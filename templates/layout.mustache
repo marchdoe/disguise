@@ -5,20 +5,37 @@
 
 	<link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/grid.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/typography.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/forms.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/buttons.css" media="screen" rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/typography.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/modules.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/stylesheets/base.css" media="screen" rel="stylesheet" type="text/css" />
+	
+	<!-- APPLICATION LAYER -->
+	<link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+	
+	<!-- ONLY NEEDED FOR SYNTAX HIGHLIGHTING -->
+	<link href="/stylesheets/shCore.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/shThemeRDark.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="/javascript/shCore.js" type="text/javascript"></script>
+	<script src="/javascript/shBrushJScript.js" type="text/javascript"></script>
+	<script src="/javascript/shBrushCss.js" type="text/javascript"></script>
+	<script src="/javascript/shBrushXml.js" type="text/javascript"></script>
+	
 
   </head>
   <body>
-    <div class="container">
 	  {{> header}}
-      
-      {{{yield}}}
-
+	
+	  <div class="container">
+		{{{yield}}}
+	  </div>
+	
       {{> footer}}
-    </div>
+
+	<script type="text/javascript">
+		SyntaxHighlighter.config.tagName = "figure"
+		SyntaxHighlighter.all()
+	</script>
   </body>
 </html>

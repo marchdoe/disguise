@@ -1,0 +1,7 @@
+#grid aside 			{ background: rgba(0, 127, 255, 0.1); min-height: 300px; }
+#grid section article	{ background: rgba(0, 127, 255, 0.1); min-height: 300px; }
+
+
+
+div.syntaxhighlighter	{ padding: 5px 0px !important; margin-bottom: 65px !important; 
+						border-radius:5px !important; -webkit-border-radius:5px !important; -moz-border-radius:5px !important; }
