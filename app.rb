@@ -1,5 +1,18 @@
 require 'sinatra/base'
 require 'mustache/sinatra'
+require 'rack' 
+
+
+# Reload scripts and reset routes on change 
+class Sinatra::Reloader < Rack::Reloader 
+  def safe_load(file, mtime, stderr = $stderr) 
+    if file == Sinatra::Application.app_file 
+      ::Sinatra::Application.reset! 
+      stderr.puts "#{self.class}: reseting routes" 
+    end 
+    super 
+  end 
+end
 
 class App < Sinatra::Base
   register Mustache::Sinatra
