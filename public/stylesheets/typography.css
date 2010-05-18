@@ -33,7 +33,7 @@ p              { margin: 0 0 1.5em; }
 
 a:focus,
 a:hover        { color: #000; }
-a              { color: #009; text-decoration: underline; }
+a              { color: #009; text-decoration: underline; outline-style: none; }
 
 blockquote     { margin: 1.5em; color: #666; font-style: italic; }
 strong         { font-weight: bold; }
