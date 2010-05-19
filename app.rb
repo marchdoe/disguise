@@ -63,5 +63,13 @@ class App < Sinatra::Base
   get '/application' do
     mustache :application
   end
+  
+  get '/button-demo' do
+    mustache :buttondemo
+  end
+  
+  get '/module-demo' do
+    mustache :moduledemo
+  end
 
 end

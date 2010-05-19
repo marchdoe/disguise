@@ -1,3 +1,40 @@
+What is disguise?
+
+
+
+
+What is toupee?
+
+The wireframe layer is the barebones style-set to get something going.
+It is comprised of reset.css, grid.css, typography.css, forms.css
+button.css and modules.css
+
+The base layer is the first visual layer. It would include brand,
+brand colors, specific styles related to that of your site design
+
+The application layer is optional. Lets say that two or three
+applications fall under your brand, you can create application
+specific styles in this layer.
+
+What I generally do is symlink (never was able to get git submodules
+to work correctly) in the toupee assets (unless there is an
+application layer, then I include that in the app itself).
+
+
+
+
+What is Mustache?
+
+
+
+
+
+
+
+
+
+Thanks
+
 reset.css is based on work by:
 * Eric Meyer  (meyerweb.com)
 
