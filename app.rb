@@ -24,7 +24,6 @@ class App < Sinatra::Base
   }
 
   get '/' do
-    @title = "Toupee + Mustache = Disguise"
     mustache :index
   end
   
