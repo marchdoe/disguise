@@ -1,8 +1,13 @@
 WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK IT OUT THOUGH
 
+If you like what you see but see something wrong, feel free to add an issue
+
+---------------------------------------
+
 h1. Toupee + Mustache = Disguise
 What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
 
+---------------------------------------
 
 h2. What makes up Toupee?
 
@@ -18,12 +23,15 @@ brand colors, specific styles related to that of your site design
 The "application layer" (optional)
 Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
 
+---------------------------------------
+
 h2. What is {{Mustache}}?
 
 Mustache is a logic-less templating system for HTML, config files, anything. 
 
+---------------------------------------
 
-h3. Installation
+h2. Installation
 Grab your Toupee -- http://github.com/marchdoe/toupee
 
 What I generally do is symlink (sorry was never was able to get git submodules
