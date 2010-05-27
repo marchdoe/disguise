@@ -2,12 +2,9 @@ WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK I
 
 If you like what you see but see something wrong, feel free to add an issue
 
----------------------------------------
-
 h1. Toupee + Mustache = Disguise
 What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
 
----------------------------------------
 
 h2. What makes up Toupee?
 
@@ -23,13 +20,11 @@ brand colors, specific styles related to that of your site design
 The "application layer" (optional)
 Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
 
----------------------------------------
 
 h2. What is {{Mustache}}?
 
 Mustache is a logic-less templating system for HTML, config files, anything. 
 
----------------------------------------
 
 h2. Installation
 Grab your Toupee -- http://github.com/marchdoe/toupee
@@ -53,16 +48,16 @@ and now for your mustache
 
 
 
-This couldn't have been created without the hard work of the following people.
+h2. This couldn't have been created without the hard work of the following people.
 
 reset.css is based on work by:
-* Eric Meyer  (meyerweb.com)
+Eric Meyer  (meyerweb.com)
 
 buttons.css is based on work by:
-* Nick La     (ndesign-studio.com)
+Nick La     (ndesign-studio.com)
 
 grid.css is based on work by:
-* The Blueprint Team
+The Blueprint Team
 
 
 
