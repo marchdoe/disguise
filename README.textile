@@ -1,33 +1,40 @@
 WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK IT OUT THOUGH
 
+h1. Toupee + Mustache = Disguise
+What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
 
 
-What is disguise?
+h2. What makes up Toupee?
 
-
-
-
-What is toupee?
-
-The wireframe layer is the barebones style-set to get something going.
+The "wireframe" layer 
+It's the barebones style-set to get something going.
 It is comprised of reset.css, grid.css, typography.css, forms.css
 button.css and modules.css
 
-The base layer is the first visual layer. It would include brand,
+The "base style" layer 
+The first visual layer. It would include brand,
 brand colors, specific styles related to that of your site design
 
-The application layer is optional. Lets say that two or three
-applications fall under your brand, you can create application
-specific styles in this layer.
+The "application layer" (optional)
+Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
 
-What I generally do is symlink (never was able to get git submodules
-to work correctly) in the toupee assets (unless there is an
-application layer, then I include that in the app itself).
+h2. What is {{Mustache}}?
 
+Mustache is a logic-less templating system for HTML, config files, anything. 
 
 
+h3. Installation
+Grab your Toupee -- http://github.com/marchdoe/toupee
 
-What is Mustache?
+What I generally do is symlink (sorry was never was able to get git submodules
+to work correctly) in the toupee assets into the public folder.
+
+and now for your mustache
+- rubygems
+- $ gem install mustache
+
+
+...and now you have a Disguise
 
 
 
@@ -37,16 +44,20 @@ What is Mustache?
 
 
 
-Thanks
+
+This couldn't have been created without the hard work of the following people.
 
 reset.css is based on work by:
 * Eric Meyer  (meyerweb.com)
 
-
-
 buttons.css is based on work by:
 * Nick La     (ndesign-studio.com)
 
+grid.css is based on work by:
+* The Blueprint Team
 
 
-forms.css is based on work by:
+
+
+
+
