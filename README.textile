@@ -27,6 +27,7 @@ Mustache is a logic-less templating system for HTML, config files, anything.
 
 
 h2. Installation
+
 Grab your Toupee -- http://github.com/marchdoe/toupee
 
 What I generally do is symlink (sorry was never was able to get git submodules
