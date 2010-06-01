@@ -4,20 +4,20 @@ If you like what you see but see something wrong, feel free to add an issue
 
 h1. Toupee + Mustache = Disguise
 
-What is disguise you ask? It is a quick demo (<a href="#">view demo</a> coming soon) I setup to show the functionality of Toupee.
+What is disguise you ask? It is a quick demo <!-- (<a href="#">view demo</a> coming soon) --> I setup to show the functionality of Toupee.
 
 h2. What makes up Toupee?
 
-The "structure" layer 
+*The "structure" layer *
 It's the barebones style-set to get something going.
 It is comprised of reset.css, grid.css, typography.css, forms.css
 button.css and modules.css
 
-The "base design" layer 
+*The "base design" layer*
 The first visual layer. It would include brand,
 brand colors, specific styles related to that of your site design
 
-The "application specific" layer (optional)
+*The "application specific" layer (optional)*
 Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
 
 
