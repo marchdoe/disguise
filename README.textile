@@ -4,7 +4,7 @@ If you like what you see but see something wrong, feel free to add an issue
 
 h1. Toupee + Mustache = Disguise
 
-What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
+What is disguise you ask? It is a quick demo (<a href="#">view demo</a> coming soon) I setup to show the functionality of Toupee.
 
 h2. What makes up Toupee?
 
@@ -36,11 +36,16 @@ to work correctly) in the toupee assets into the public folder.
 and now for your mustache
 - rubygems
 - $ gem install mustache
+- cd disguise
+- rackup config.ru
+- open http://localhost:9292
 
 
 ...and now you have a Disguise
 
+Currently Disguise only uses mustache but I look to expand in the future to work with other languages and frameworks.
 
+Currently there is no support for Internet Explorer of any kind. Please Feel free to report bugs in IE so when the time comes they can be fixed.
 
 
 
@@ -55,16 +60,13 @@ h2. This couldn't have been created without the hard work of the following peopl
 Chris Wanstrath (<a href="http://github.com/defunkt">defunkt</a>)
 
 reset.css is based on work by:
-Eric Meyer  (<a href="http://meyerweb.com">meyerweb.com</a>)
+Eric Meyer (<a href="http://meyerweb.com">meyerweb.com</a>)
 
 buttons.css is based on work by:
-Nick La     (ndesign-studio.com)
+Nick La (<a href="ndesign-studio.com">ndesign-studio.com</a>)
 
-grid.css is based on work by:
-The Blueprint Team
-
-
-
+grid.css and typography.css is based on work by:
+The Blueprint Team (<a href="http://www.blueprintcss.org/">Blueprint CSS</a>)
 
 
 
