@@ -3,27 +3,27 @@ WORK IN PROGRESS NEEDS BETTER DOCUMENTATION AND EXAMPLES -- FEEL FREE TO CHECK I
 If you like what you see but see something wrong, feel free to add an issue
 
 h1. Toupee + Mustache = Disguise
-What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
 
+What is disguise you ask? It is a quick demo I setup to show the functionality of Toupee.
 
 h2. What makes up Toupee?
 
-The "wireframe" layer 
+The "structure" layer 
 It's the barebones style-set to get something going.
 It is comprised of reset.css, grid.css, typography.css, forms.css
 button.css and modules.css
 
-The "base style" layer 
+The "base design" layer 
 The first visual layer. It would include brand,
 brand colors, specific styles related to that of your site design
 
-The "application layer" (optional)
+The "application specific" layer (optional)
 Lets say that two or three applications fall under your brand, you can create application specific styles in this layer.
 
 
 h2. What is {{Mustache}}?
 
-Mustache is a logic-less templating system for HTML, config files, anything. 
+Mustache is a logic-less templating system for HTML, config files, anything. Created by <a href="http://github.com/defunkt">defunkt</a>
 
 
 h2. Installation
@@ -51,8 +51,11 @@ and now for your mustache
 
 h2. This couldn't have been created without the hard work of the following people.
 
+{{Mustache}}
+Chris Wanstrath (<a href="http://github.com/defunkt">defunkt</a>)
+
 reset.css is based on work by:
-Eric Meyer  (meyerweb.com)
+Eric Meyer  (<a href="http://meyerweb.com">meyerweb.com</a>)
 
 buttons.css is based on work by:
 Nick La     (ndesign-studio.com)
