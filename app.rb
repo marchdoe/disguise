@@ -2,7 +2,6 @@ require 'sinatra/base'
 require 'mustache/sinatra'
 require 'rack' 
 
-
 # Reload scripts and reset routes on change 
 class Sinatra::Reloader < Rack::Reloader 
   def safe_load(file, mtime, stderr = $stderr) 
