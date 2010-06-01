@@ -35,7 +35,7 @@ to work correctly) in the toupee assets into the public folder.
 
 and now for your mustache
 - rubygems
-- $ gem install mustache
+- gem install mustache
 - cd disguise
 - rackup config.ru
 - open http://localhost:9292
