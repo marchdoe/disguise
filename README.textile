@@ -8,7 +8,7 @@ What is disguise you ask? It is a quick demo <!-- (<a href="#">view demo</a> com
 
 h2. What makes up Toupee?
 
-*The "structure" layer *
+*The "structure" layer*
 It's the barebones style-set to get something going.
 It is comprised of reset.css, grid.css, typography.css, forms.css
 button.css and modules.css
