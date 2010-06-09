@@ -1,0 +1,6 @@
+[submodule "toupee"]
+	path = toupee
+	url = /Users/marchdoe/projects/toupee
+[submodule "public/toupee"]
+	path = public/toupee
+	url = /Users/marchdoe/projects/toupee
