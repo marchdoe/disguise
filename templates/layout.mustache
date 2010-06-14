@@ -13,7 +13,7 @@
 	<link href="/stylesheets/toupee/base.css" media="screen" rel="stylesheet" type="text/css" />
 	
 	<!-- APPLICATION LAYER -->
-	<link href="/stylesheets/toupee/application.css" media="screen" rel="stylesheet" type="text/css" />
+	<!-- <link href="/stylesheets/toupee/application.css" media="screen" rel="stylesheet" type="text/css" /> -->
 	
 	<!-- ONLY NEEDED FOR SYNTAX HIGHLIGHTING -->
 	<link href="/stylesheets/shCore.css" media="screen" rel="stylesheet" type="text/css" />
@@ -25,7 +25,20 @@
 	
 	<!-- FONTS -->
 	<!-- <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'> -->
+  
+  <script type="text/javascript">
 
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1117404-20']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </head>
 
 <body>
@@ -42,5 +55,6 @@
 		SyntaxHighlighter.config.tagName = "figure"
 		SyntaxHighlighter.all()
 	</script>
-  </body>
+
+</body>
 </html>

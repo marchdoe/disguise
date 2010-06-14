@@ -1,12 +1,24 @@
 a { text-decoration: none; cursor: pointer; }
 a:hover { text-decoration: underline; }
-p { font-size:1.4em; }
+p { font-size:1.2em; }
 
 /* HEADER
 ---------------------------- */
-header                          { margin-bottom: 20px; }
+header                          { margin-bottom: 40px; }
 header h1                       { display: inline-block; padding: 20px 60px 10px 10px; margin: 0; background: #f1f1f1 url("/images/logo.png") no-repeat center right; }
 header h1 a                     { color: #aaa; text-decoration: none; }
+
+/* CONTENT
+---------------------------- */
+
+/* Styles specific to the application */
+#grid aside                 { background: rgba(0, 127, 255, 0.1); min-height: 300px; }
+#grid section article       { background: rgba(0, 127, 255, 0.1); min-height: 300px; }
+
+div.syntaxhighlighter       { padding: 15px 0px !important; margin-bottom: 35px !important; 
+                              -moz-border-radius:5px !important; 
+                              -webkit-border-radius:5px !important; 
+                              border-radius:5px !important; }
 
 /* NAVIGATION
 ---------------------------- */
