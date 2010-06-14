@@ -4,7 +4,7 @@ If you like what you see but see something wrong, feel free to add an issue
 
 h1. Toupee + Mustache = Disguise
 
-What is disguise you ask? It is a quick demo <!-- (<a href="#">view demo</a> coming soon) --> I setup to show the functionality of Toupee.
+What is disguise you ask? It is a quick demo (<a href="http://disguise.heroku.com/">view demo</a> coming soon) I setup to show the functionality of Toupee.
 
 h2. What makes up Toupee?
 
