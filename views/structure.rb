@@ -1,6 +1,6 @@
 class App
   module Views
-    class Grid < Layout
+    class Structure < Layout
 
     end
   end

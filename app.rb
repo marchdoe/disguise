@@ -34,8 +34,8 @@ class App < Sinatra::Base
     mustache :reset
   end
   
-  get '/grid' do
-    mustache :grid
+  get '/structure' do
+    mustache :structure
   end
   
   get '/typography' do

@@ -1,6 +1,6 @@
 class App
   module Views
-    class About < Layout
+    class About < Default
 
     end
   end
